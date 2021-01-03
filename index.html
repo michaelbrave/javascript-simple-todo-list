@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header id="main-header" class="bg-info text-white p-4 mb-3">
+        <div class="containter">
+            <h1 id="header-title">To Do List</h1>
+        </div>
+    </header>
+    <div class="containter">
+        <div id="main"  class="card card-body col-sm-3 mx-auto">
+            <h2 class="title">Add Item:</h2>
+                <input id="inputField" type="text" class="form-control mr-2" placeholder="item to add..." />
+                <button id="addToDo" class="btn btn-dark">Submit</button>
+            <h2 class="title">Items:</h2>
+            <ul id="toDoContainer" class="to-dos">
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
